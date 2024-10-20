@@ -24,7 +24,8 @@ A React application that allows users to explore characters from the popular ani
 ## Screenshots
 
 ### Mobile View
-![Mobile View](path/to/mobile-view-screenshot.png)
+![Mobile View](https://github.com/user-attachments/assets/3b97656f-f903-46e3-b93e-415c9e6ab9df)
+
 
 ### Desktop View
 ![Desktop View](path/to/desktop-view-screenshot.png)
