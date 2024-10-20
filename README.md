@@ -1,4 +1,3 @@
-![Screenshot 2024-10-20 at 2 01 29 PM](https://github.com/user-attachments/assets/40c504a8-0d0d-42d1-91ce-a3dddbba314c)
 
 # Rick and Morty Character Viewer
 
