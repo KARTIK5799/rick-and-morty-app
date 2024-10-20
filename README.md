@@ -1,5 +1,5 @@
 
-```markdown
+
 # Rick and Morty Character Viewer
 
 A React application that allows users to explore characters from the popular animated series "Rick and Morty". The app fetches character data and episode information from the [Rick and Morty API](https://rickandmortyapi.com/) and presents it in an interactive, user-friendly interface.
