@@ -1,50 +1,82 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```markdown
+# Rick and Morty Character Viewer
 
-Currently, two official plugins are available:
+A React application that allows users to explore characters from the popular animated series "Rick and Morty". The app fetches character data and episode information from the [Rick and Morty API](https://rickandmortyapi.com/) and presents it in an interactive, user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [License](#license)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- View a list of characters from the "Rick and Morty" series.
+- Select episodes to filter characters that appeared in those episodes.
+- Responsive design for mobile and desktop views.
+- Pagination for character lists to enhance performance.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Screenshots
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Mobile View
+![Mobile View](path/to/mobile-view-screenshot.png)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Desktop View
+![Desktop View](path/to/desktop-view-screenshot.png)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### Episode Selection
+![Episode Selection](path/to/episode-selection-screenshot.png)
+
+### Character Display
+![Character Display](path/to/character-display-screenshot.png)
+
+## Technologies Used
+
+- **React** - A JavaScript library for building user interfaces.
+- **TypeScript** - A typed superset of JavaScript for type safety.
+- **Tailwind CSS** - A utility-first CSS framework for styling.
+- **Rick and Morty API** - For fetching character and episode data.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/rick-and-morty-character-viewer.git
+   cd rick-and-morty-character-viewer
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+Your application should now be running on [http://localhost:3000](http://localhost:3000).
+
+## Usage
+
+- On the main page, you can see a list of episodes on the left. Click on an episode to view characters from that episode.
+- The character display on the right will update to show relevant characters.
+- You can navigate through the character list using pagination at the bottom of the character grid.
+
+## Deployment
+
+This application is deployed using [Vercel](https://vercel.com/). You can view the live application at the following link:
+
+[Live Demo](https://rick-and-morty-app-gules.vercel.app/)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
