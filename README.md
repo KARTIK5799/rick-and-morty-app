@@ -1,4 +1,4 @@
-
+![Screenshot 2024-10-20 at 2 01 29 PM](https://github.com/user-attachments/assets/40c504a8-0d0d-42d1-91ce-a3dddbba314c)
 
 # Rick and Morty Character Viewer
 
@@ -28,13 +28,16 @@ A React application that allows users to explore characters from the popular ani
 
 
 ### Desktop View
-![Desktop View](path/to/desktop-view-screenshot.png)
+![Desktop View](https://github.com/user-attachments/assets/bef1d5d3-afad-4d80-90bb-fed854b1ac99)
+
 
 ### Episode Selection
-![Episode Selection](path/to/episode-selection-screenshot.png)
+![Episode Selection](https://github.com/user-attachments/assets/b356148f-0bb3-4ab0-8501-4af9423bb912)
+
 
 ### Character Display
-![Character Display](path/to/character-display-screenshot.png)
+![Character Display](https://github.com/user-attachments/assets/2a96a088-62b7-4c25-9609-d34d7dab7df5)
+
 
 ## Technologies Used
 
