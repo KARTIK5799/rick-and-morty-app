@@ -7,8 +7,8 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url('/bg.png');
-  background-color: #000000; 
+  background-image: url('/bg.webp');
+  background-color: #000;
   background-repeat: no-repeat; 
   background-size: cover;
 }
